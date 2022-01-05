@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <!-- highscore link -->
+    <nav>
+        <a href="./highscores.html">View Highscore</a>
+    </nav>
+    
+    <!-- main title -->
+    <div id="starting-page">
+        <h1>code quiz challenge</h1>
+        <p>Answer the following questions with the amount of time given.</p>
+        <p>right answers give time, wrong answers reduce time.</p>
+        <button type="button" id="starting-btn">Start quiz</button>
+    </div>
+    <div id="timer">
+        <p>time: <span id="time-left"></span></p>
+    </div>
+    <div id="questions">
+        <h1 id="question-title">question 1</h1>
+        <div id="question-buttons">
+            <button type="button" id="1" class="btn">1</button>
+            <button type="button" id="2" class="btn">2</button>
+            <button type="button" id="3" class="btn">3</button>
+            <button type="button" id="4" class="btn">4</button>
+        </div>
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
